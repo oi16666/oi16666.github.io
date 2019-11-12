@@ -1,0 +1,77 @@
+@media (max-width: 1200px) {
+  header {
+    margin: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header-text h1 {
+    padding-bottom: 40px;
+    font-size: 25px;
+  }
+  .sec2-hr {
+    display: none;
+  }
+  h2.content-title {
+    text-align: center;
+  }
+
+  .section1-lower {
+    text-align: center;
+  }
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  /*Display in row or in translation to css is display:block*/
+  .resource-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  /*Navbar*/
+  .menu-toggle {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    color: #069370;
+    font-size: 30px;
+    margin-right: 30px;
+  }
+    /*Adding and styling fontawesome*/
+  .menu-toggle:before {
+    content: "\f078";
+    font: normal normal normal 30px/1 FontAwesome;
+    color: #fff;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+  }
+  .menu-toggle.active:before {
+    content: "\f00d";
+    font: normal normal normal 30px/1 FontAwesome;
+    color: #fff;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+  }
+    /*Display none and add color gradient for background*/
+  nav {
+    display: none;
+ 
+  }
+  nav.active {
+    display: block;
+    width: 100%;
+  }
+  nav.active ul {
+    display: block;
+  }
+  nav.active ul li {
+    text-align: center;
+  }
+}

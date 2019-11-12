@@ -1,0 +1,305 @@
+/*Horizontal line*/
+hr {
+  background-color: #dbdbdb;
+}
+
+/*********
+            Banner/ Header section
+****/
+
+header {
+  width: 100%;
+  padding-top: 15px;
+  background: linear-gradient(#0008, #0000, transparent),
+    url("../img/hiking.jpg") no-repeat center center fixed;
+  height: 900px;
+  background-size: cover
+      
+
+  
+}
+.logo {
+    color: #fff;
+    height: 50px;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav {
+  float: right;
+  position: relative;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+ 
+  box-sizing: border-box;
+  border-radius: 4px;
+ 
+}
+.clearfix {
+    clear: both;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 0;
+    padding 10px 20px;
+}
+nav ul li a  {
+    display: block;
+    padding: 20px;
+     color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: rgba(000, 0, 0, 0.5);
+    color: #fff;
+    transition: 0.5s;
+}
+nav ul li:hover {
+   text-decoration: none;
+}
+nav ul li a:link {
+   text-decoration: none;
+}
+nav ul li a:hover {
+   text-decoration: none;
+}
+
+/*Title Caption*/
+.header-title h1 {
+  color: #fff;
+  padding-top: 35px;
+  font-size: 60px !important;
+}
+
+p.head-content {
+  color: #fff;
+  line-height: 25px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+/**************************
+    Section One
+******************************************/
+
+.section-one {
+  background-color:#ebedf0;
+  height: auto;
+  padding: 30px;
+}
+
+/*Adding background color to the first section of the page*/
+.sec1-wrapper {
+  background-color: #fff;
+}
+
+img.man-stand {
+  width: 100%;
+  padding: 30px;
+}
+
+.secOne {
+  padding: 20px 0 20px 0;
+}
+
+.ipad1 {
+  width: 50%;
+}
+
+.ipad2 {
+  width: 70%;
+  padding: 10px;
+}
+
+.ipad3 {
+  width: 70%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #ebedf0;
+  display: column;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: #fff;
+  width: 70%;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+/******
+*******************************************
+           Section Two 
+*************************************************/
+.section-two {
+  padding-bottom: 50px;
+  background-color: #fff;
+}
+
+.content-title {
+    text-align: center;
+}
+.graduation-screen {
+  width: 100%;
+}
+
+.reimagine {
+  padding: 35px 0 20px 0;
+  font-size: 42px;
+  text-align: center;
+}
+
+/*Make p tag center*/
+p.centent-reimagine {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*Resizing icon*/
+img.check {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* Get both icon and text to be on the same line */
+img.check,
+h4 {
+  display: inline;
+}
+
+img.message {
+  width: 70px;
+  margin-right: 10px;
+}
+
+/*************************************************
+        Section Three 
+*************************************************/
+.section-three {
+  background-color: #ebedf0;
+  padding-bottom: 50px;
+}
+
+.resource h3 {
+  padding-top: 50px;
+    font-size: 35px;
+}
+
+.resource-container {
+  display: flex;/**Display flex for vetical align*/
+  justify-content: center; /*Flex propertie for center align*/
+}
+
+/*Grabing a class resource-container's divs for styling*/
+.resource-container > div {
+  background-color: #fff;
+  margin: 15px;
+  padding: 20px;
+  width: 50%;
+}
+
+.pen,
+.blue-global,
+.wlogo,
+.note {
+  width: 15%;
+}
+
+/*************************************************
+        Section Four
+*************************************************/
+
+.section-four {
+  background-image: url("../img/snow.jpg");
+  width: auto;
+  height: 400px;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.text-four h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.section-four p {
+  margin-top: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+/*To align the caption center right as well as left*/
+.text-four {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/*************************************************
+        Section Five 
+*************************************************/
+.section-five {
+  background-color: #ebebeb;
+  padding: 50px 0 50px 0;
+}
+
+.section-five h2 {
+  color: #000;
+  text-align: center;
+}
+
+.col-five {
+  padding-top: 50px;
+}
+
+.spEducation p,
+.info-tech p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.spEducation,
+.info-tech {
+  text-align: center;
+}
+
+/*Resize, centralize, and add spacing images*/
+.spEducation img,
+.info-tech img {
+  width: 20%;
+  display: block;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+/*************************************************
+                Footer Section
+*************************************************/
+footer {
+  background-color:#525454;
+  padding: 20px 0px 20px 0px;
+}
+
+footer p {
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+}
