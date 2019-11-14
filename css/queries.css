@@ -4,9 +4,7 @@
   }
 }
 @media screen and (min-width : 320px) and (max-width : 768px) {
-    body{
-        overflow: hidden;
-    }
+    
   .header-text h1 {
     padding-bottom: 40px;
     font-size: 25px;
