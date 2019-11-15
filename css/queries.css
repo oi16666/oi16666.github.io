@@ -4,8 +4,8 @@
   header {
     width: 100%;
     padding-top: 15px;
-    background: linear-gradient(#0008, #0000, transparent),
-      url("../img/hiking.png") no-repeat 30% center fixed;
+    background-image: linear-gradient(#0008, #0000, transparent),
+      url("../img/hiking.png") no-repeat;
 
     background-size:cover;
   }
