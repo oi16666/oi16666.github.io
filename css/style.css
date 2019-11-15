@@ -18,8 +18,12 @@ header {
   background: linear-gradient(#0008, #0000, transparent),
     url("../img/hiking.png") no-repeat center center fixed;
   height: 900px;
+  background-position:center;
   background-size: cover
-      
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
 
   
 }
