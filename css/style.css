@@ -15,7 +15,7 @@ hr {
 header {
   width: 100%;
   padding-top: 15px;
-  background: url("../img/hiking.png");
+  background-image: url("../img/hiking.png");
   height: 900px;
   background-position:center;
   background-size: cover
